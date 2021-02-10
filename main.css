@@ -1,0 +1,29 @@
+body {
+  background: url("img/backdround.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body h2 {
+  text-align: center;
+  color: white;
+}
+.container {
+  margin: 1rem auto;
+  padding: 1.5rem;
+  background-color: rgba(104, 101, 101, 0.774);
+  border-radius: 0.5rem;
+}
+.order-info {
+  height: 30rem;
+  overflow: scroll;
+}
+.col-left {
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.nav {
+  color: white;
+  background-color: #211103;
+}
