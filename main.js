@@ -27,7 +27,7 @@ function createOrder(){
     const sweetener = document.forms[0].sweetener.value;
     const coldFoam = document.forms[0].coldFoam.value;
     const dairy = document.forms[0].dairy.value;
-    if(Boolean(name)){
+    if(Boolean(name.trim())){
         orders.push(new order(name, drink, size, drizzle, whippedCream, sweetener, coldFoam, dairy));
         appendRecord(orders.length - 1);
         document.forms[0].reset();
